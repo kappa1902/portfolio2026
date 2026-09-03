@@ -1,0 +1,115 @@
+body {
+    background-color: #0b0f14;
+    color: #e2e8f0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    padding: 40px 20px;
+}
+
+header {
+    background-color: #111823;
+    border: 1px solid #00f2fe;
+    border-radius: 12px;
+    padding: 32px;
+    margin-bottom: 24px;
+    box-shadow: 0 0 20px rgba(0, 242, 254, 0.15);
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 2.1rem;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 16px;
+    text-shadow: 0 0 10px rgba(0, 242, 254, 0.3);
+}
+
+header p {
+    color: #94a3b8;
+    font-size: 1.05rem;
+    margin-bottom: 12px;
+}
+
+h2 {
+    color: #ffffff;
+    font-size: 1.35rem;
+    font-weight: 600;
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+
+.card {
+    background-color: #111823;
+    border: 1px solid #1e293b;
+    border-radius: 12px;
+    padding: 24px 28px;
+    margin-bottom: 16px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    border-color: #00f2fe;
+    box-shadow: 0 0 15px rgba(0, 242, 254, 0.2);
+}
+
+h3 {
+    color: #00f2fe;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+ul {
+    padding-left: 20px;
+    margin: 0;
+}
+
+li {
+    color: #94a3b8;
+    margin-bottom: 10px;
+}
+
+li strong {
+    color: #e2e8f0;
+}
+
+a {
+    color: #00f2fe;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+a:hover {
+    text-shadow: 0 0 8px rgba(0, 242, 254, 0.6);
+    text-decoration: underline;
+}
+
+code {
+    background-color: #161f2a;
+    color: #00f2fe;
+    padding: 2px 8px;
+    border-radius: 6px;
+    font-size: 0.88em;
+    border: 1px solid #1e293b;
+}
+
+footer {
+    margin-top: 40px;
+    padding-top: 24px;
+    border-top: 1px solid #1e293b;
+    text-align: center;
+}
+
+footer p {
+    color: #94a3b8;
+}
